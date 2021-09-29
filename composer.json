@@ -1,0 +1,41 @@
+{
+    "name": "gruponorba/laravel_lang_pt-br",
+    "description": "Laravel validation messages in Portuguese",
+    "type": "library",
+    "require-dev": {
+        "orchestra/testbench": "^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.0",
+        "predis/predis": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "norbberto",
+            "email": "norbberto.gn@gmail.com",
+            "role": "Software"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrupoNorba\\PtBrLang\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GrupoNorba\\PtBrLang\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "GrupoNorba\\PtBrLang\\Providers\\PtBrLangServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
