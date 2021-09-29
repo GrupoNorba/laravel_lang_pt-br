@@ -1,22 +1,25 @@
 {
     "name": "gruponorba/laravel_lang_pt-br",
-    "description": "Laravel validation messages in Portuguese",
     "type": "library",
-    "require-dev": {
-        "orchestra/testbench": "^4.0|^5.0|^6.0",
-        "phpunit/phpunit": "^8.0|^9.0",
-        "predis/predis": "^1.1"
-    },
+    "description": "Laravel validation messages in Portuguese",
+    "homepage": "https://github.com/GrupoNorba/laravel_lang_pt-br",
     "license": "MIT",
     "authors": [
         {
             "name": "norbberto",
             "email": "norbberto.gn@gmail.com",
-            "role": "Software"
+            "homepage": "https://github.com/GrupoNorba",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "^7.3",
+        "composer-runtime-api": "^2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.0",
+        "predis/predis": "^1.1"
     },
     "autoload": {
         "psr-4": {
